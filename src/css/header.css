@@ -75,13 +75,14 @@ color: #fcba00;
 @media screen and (min-width: 1440px) {
   .header {
 width: 1280px;
+top: 16px;
   }
 
   .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+padding: 6px 16px;
   }
 
   .menu-button {
