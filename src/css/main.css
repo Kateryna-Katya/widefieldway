@@ -192,3 +192,36 @@ font-weight: 500;
 font-size: 20px;
 }
 }
+/* The Loop That Hooks */
+.loop-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.loop-text{
+font-weight: 600;
+    font-size: 18px;
+}
+.loop-list{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+@media only screen and (min-width: 1440px) {
+ .loop-container{
+    padding-left: 108px;
+    flex-direction: row-reverse;
+    gap: 48px;
+ }
+ .loop-wrapper{
+    width: 528px;
+ }
+ .loop-text{
+    font-size: 22px;
+ }
+}
