@@ -43,3 +43,34 @@ letter-spacing: 0.02em;
     display: block;
 }
 }
+.blue-section{
+    background-image: url("/img/blue/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+@media only screen and (min-width: 1440px) {
+.blue-section {
+        background-image: url("/img/blue/desk.png");
+    }
+}
+
+/* Organized Chaos */
+.organized-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+@media only screen and (min-width: 1440px) {
+ .organized-container{
+    padding-right: 0;
+    padding-top: 104px;
+    padding-left: 176px;
+    flex-direction: row;
+    gap: 48px;
+ }
+ .organized-wrapper{
+    width: 528px;
+ }
+}
