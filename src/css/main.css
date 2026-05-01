@@ -136,3 +136,59 @@ font-size: 18px;
 font-size: 22px;
  }
 }
+.black-section{
+    background-image: url("/img/black/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+@media only screen and (min-width: 1440px) {
+.black-section {
+        background-image: url("/img/black/desk.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+}
+/* From Control to Overload */
+.from-text{
+    font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 32px;
+        text-align: center;
+}
+.from-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.from-item{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        height: 144px;
+        gap: 16px;
+font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.from-text{
+    font-size: 22px;
+    width: 528px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.from-list{
+    margin-top: 48px;
+    flex-direction: row;
+    justify-content: center;
+}
+.from-item{
+    width: 236px;
+        height: 174px;
+font-size: 20px;
+}
+}
