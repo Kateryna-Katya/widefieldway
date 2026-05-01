@@ -13,6 +13,14 @@ h2{
     line-height: 1.04;
     letter-spacing: 0.02em;
     color: #fcba00;
-    text-shadow: 0 4px 0 0 #000;
+    text-shadow: 0 4px 0 #000;
     margin-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+  body{
+    font-size: 18px;
+  }
+  h2{
+font-size: 52px;
+  }
 }

@@ -1,0 +1,45 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 812px;
+}
+.home-wrapper{
+    margin-top: 70px;
+}
+.home-text{
+        font-weight: 600;
+}
+.home-title{
+font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.04;
+    color: #fff;
+text-shadow: 0 4px 0 #000;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+    background-image: url("/img/home/desk.png");
+}
+.home-wrapper{
+    margin-top: 236px;
+}
+.home-text{
+    font-size: 24px;
+}
+.home-title{
+font-size: 92px;
+letter-spacing: 0.02em;
+}
+.home-container{
+    padding-left: 65px;
+}
+.desk{
+    display: block;
+}
+}
