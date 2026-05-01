@@ -273,3 +273,70 @@ font-size: 22px;
 margin-bottom: 48px;
  }
 }
+/* Contact */
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contact-title{
+    font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.36;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 16px;
+}
+.contact-link{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+.contact-mail{
+    display: flex;
+    align-items: center;
+border: 1px solid #ddd8d2;
+    border-radius: 8px;
+    padding: 10px 24px;
+    width: 251px;
+    height: 48px;
+background: #fff;
+color: #20232a;
+}
+.contact-btn{
+display: flex;
+    align-items: center;
+    justify-content: center;
+border-radius: 8px;
+    width: 76px;
+    height: 48px;
+background: #fcba00;
+color: #0d1b2a;
+font-weight: 500;
+}
+@media only screen and (min-width: 1440px) {
+ .contact-container{
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 48px;
+ }
+.contact-wrapper{
+    width: 512px;
+}
+.contact-link{
+    margin-top: 24px;
+}
+.contact-mail{
+    width: 384px;
+}
+.contact-btn{
+    width: 112px;
+}
+}
